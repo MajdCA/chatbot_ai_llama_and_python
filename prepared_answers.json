@@ -1,0 +1,14 @@
+[
+  {
+    "question": "hello",
+    "answer": "hi"
+  },
+  {
+    "question": "I can’t see inclinometer layers on the map",
+    "answer": "- Open **Map**\n- Click **Layer Control** (left panel)\n- Enable **Inclinometers** layer"
+  },
+  {
+    "question": "How do I change my password?",
+    "answer": "- Go to **Settings** → **Account** → **Change Password**"
+  }
+]
