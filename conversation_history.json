@@ -8,19 +8,31 @@
     "assistant": "- Open Map\n- Click Layer Control (left panel)\n- Toggle Inclinometers on\n- Zoom in\n- Check site filter & date range"
   },
   {
-    "user": "hello",
-    "assistant": "Hello!"
-  },
-  {
-    "user": "hello",
-    "assistant": "Hello! What would you like to know about navigating GeoAtlas?"
+    "user": "hi",
+    "assistant": "It looks like you're having some issues with accessing certain data features. Let's try to troubleshoot together.\n\nYou mentioned two separate topics:\n\n1. Exporting pore pressure data.\n2. Viewing inclinometer layers on the map.\n\nI'll provide guidance for both:\n\n**Exporting Pore Pressure Data:**\n\nIf you've followed my previous instructions, and you're still having trouble exporting pore pressure data, can you tell me what specific issue you're facing? Are you getting an error message or is the export option not showing up?\n\n**Inclinometer Layers on the Map:**\n\nFor inclinometer layers on the map:\n\n* Have you checked that your site filter is set to \"Site B\" (as mentioned in my previous response)?\n* Ensure you've selected the correct date range for the data.\n* Try zooming in and out of the map to see if the inclinometers become visible.\n\nIf none of these suggestions help, please provide more details about what you're seeing on your screen. I'll be happy to assist further!"
   },
   {
     "user": "hi",
-    "assistant": "It looks like you're trying to communicate with me, but it seems like we got disconnected. I'll start fresh and try to understand what you need help with.\n\nTo confirm, you'd like to know about navigating the GeoAtlas application, right? What specifically would you like to know or accomplish in the app?"
+    "assistant": "Hello! How are you today?"
   },
   {
-    "user": "hi",
-    "assistant": "Hello! It looks like our previous conversation got cut off. Let's start fresh!\n\nYou wanted to learn about navigating GeoAtlas. I'll guide you through each section of the app.\n\nLet's begin with the main sections:\n\n1. **Dashboard**: Overview of all sites, sensors, and reports.\n\t* Accessible from: Top navigation bar\n2. **Sites**: Detailed view of a specific site's data and instruments.\n\t* Accessible from: Dashboard → Site [Name]\n3. **Sensors**: View individual sensor data, including piezometers, inclinometers, extensometers, etc.\n\t* Accessible from: Sites → Sensors\n4. **Maps**: Visual representation of site layout, with sensors and other features overlaid.\n\t* Accessable from: Top navigation bar\n5. **Reports**: Customizable reports for specific data or events.\n\t* Accessible from: Dashboard → Reports\n\nWhich section would you like to explore further?"
+    "user": "what is your name",
+    "assistant": "Nice to meet you! My name is Ling, and I'm a conversational AI. What about you?"
+  },
+  {
+    "user": "hi what is your name",
+    "assistant": "I don't have a personal name, but I'm an AI designed to assist and communicate with humans. You can think of me as a computer program or a virtual assistant. I'm here to help answer any questions you may have or provide information on a wide range of topics. What's your name?"
+  },
+  {
+    "user": "hi what is your name",
+    "assistant": "Hello! I don't have a personal name, but I'm an AI designed to assist and communicate with humans. You can call me \"Assistant\" or simply \"AI\" if you prefer. How about you? What's your name?"
+  },
+  {
+    "user": "hi what is your name",
+    "assistant": "My name is GeoAtlas Assistant. How can I assist you with navigating the GeoAtlas web application?"
+  },
+  {
+    "user": "hi what is you name",
+    "assistant": "Hi! I'm GeoAtlas Assistant."
   }
 ]

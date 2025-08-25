@@ -7,18 +7,19 @@ from pathlib import Path
 
 HISTORY_FILE = Path("conversation_history.json")
 PREPARED_FILE = "prepared_answers.json"
+MAX_CONTEXT_TURNS = 10  # Limit context to last 10 exchanges to manage token usage
 ################################################### load prompts #######################################################
 def read(path: str) -> str:
     return Path(path).read_text(encoding="utf-8")
 
 SYSTEM = read("prompts/system.md")
-GLOSSARY = read("prompts/glossary.md")
-EXAMPLES = read("prompts/examples.md")
+#GLOSSARY = read("prompts/glossary.md")
+#EXAMPLES = read("prompts/examples.md")
 
 
 
 
-model = OllamaLLM(model="llama3.1")
+model = OllamaLLM(model="llama3.1" , system_prompt=SYSTEM )
 template="""
 Answer the question below shortly and fast .
 
@@ -37,10 +38,7 @@ Answer:
 
 
 prompt = ChatPromptTemplate.from_messages([
-    (
-        "system",
-        f"{SYSTEM}\n\nDomain glossary:\n{GLOSSARY}\n\nExamples:\n{EXAMPLES}"
-    ),
+     ("system", SYSTEM),
     MessagesPlaceholder(variable_name="context"),
     ("user", "{question}")
 ])
@@ -50,23 +48,18 @@ chain= prompt | model
 ####################################################### functions #######################################################
 
 def handle_conversation():
-    # Load curated history
-    clean_history = load_clean_history()
     # Load prepared answers
     prepared_answers = load_prepared_answers()
 
-    # Convert JSON into LangChain format
+    # Initialize empty context for new conversation
     context = []
-    for turn in clean_history[-10:]:  # only keep last 10 exchanges
-        context.append({"role": "user", "content": turn["user"]})
-        context.append({"role": "assistant", "content": turn["assistant"]})
 
     print("Starting conversation with GeoAtlas Assistant...")
     print("Type 'exit' to quit.")
 
     while True:
-        user_input = input("You: ")
-        if user_input.lower() == "exit":
+        user_input = input("You: ").strip()
+        if user_input.strip().lower() == "exit":
             print("Ending conversation.")
             break
             
@@ -74,11 +67,24 @@ def handle_conversation():
         prepared_answer = find_prepared_answer(user_input, prepared_answers)
         if prepared_answer:
             print(f"Assistant (prepared): {prepared_answer}")
-            context += f"\nUser: {user_input}\nAssistant: {prepared_answer}\n"
+           # context += f"\nUser: {user_input}\nAssistant: {prepared_answer}\n"
+            context.append({"role": "user", "content": user_input})
+            context.append({"role": "assistant", "content": prepared_answer})
+
             continue
         # Generate response via LLM if no prepared answer found
         start = time.time()
-        response = chain.invoke({"context": context, "question": user_input})
+
+        # Print the prompt sent to the LLM for debugging
+        formatted_prompt = prompt.format(context=context, question=user_input)
+        print("----- LLM PROMPT -----")
+        print(formatted_prompt)
+        print("----------------------")
+
+        context_to_send = context[-MAX_CONTEXT_TURNS*2:]  # each turn has user+assistant
+        print("Context sent to LLM:", context_to_send)  # Debug print
+        print("User input:", user_input)  # Debug print
+        response = chain.invoke({"context": context_to_send, "question": user_input})
         print(f"Assistant: {response}")
 
         # Save turn to JSON file
