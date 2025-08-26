@@ -1,0 +1,180 @@
+{
+  "query": "hi",
+  "retrieved_docs": [
+    {
+      "index": 1,
+      "source": "https://www.aseltd.eu/it/about/team/",
+      "content": "Roberto Savi\nSales Manager\r\n                 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlessandro Valetta\nHead Of Scientific Development\r\n                 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlberto Sillani\nHead Of IT\r\n                 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMajd Saidani\nIT Engineering Student"
+    },
+    {
+      "index": 2,
+      "source": "https://www.aseltd.eu/en/products/ase-mind/",
+      "content": "Write Us\nWebinar\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nASE Mind"
+    },
+    {
+      "index": 3,
+      "source": "https://www.aseltd.eu/pl/about/team/",
+      "content": "Luca Chiapponi\nHead Of Calculation\r\n                \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAndrea Carri\nTechnical Director\r\n                 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRoberto Savi\nSales Manager\r\n                 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlessandro Valetta\nHead Of Scientific Development\r\n                 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlberto Sillani\nHead Of IT\r\n                 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMajd Saidani\nIT Engineering Student"
+    },
+    {
+      "index": 4,
+      "source": "https://www.aseltd.eu/en/about/team/",
+      "content": "Experienced & Professional Team\nYou can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time\n\n\n\n\n\n\n\n\n\n\n\n\n\nAndrea Segalini \nCEO\r\n                \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCorrado Carini\nHW & FW\r\n                \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLuca Chiapponi\nHead Of Calculation\r\n                \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAndrea Carri\nTechnical Director\r\n                 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRoberto Savi\nSales Manager"
+    }
+  ]
+}
+{
+  "query": "what is a cir-array",
+  "retrieved_docs": [
+    {
+      "index": 1,
+      "source": "https://www.aseltd.eu/it/products/cir-array/",
+      "content": "Il Cir Array è uno strumento progettato per il monitoraggio della convergenza e dei fenomeni deformativi localizzati 3D in gallerie in costruzione o esistenti.\r\n              Si presenta come una sequenza di nodi ermetici IP69 uniti mediante un’asta in fibra di vetro necessaria per preservarne l’allineamento e un cavo utile alla trasmissione dei dati. Ogni nodo contiene al proprio interno un sensore MEMS 3D ad alta risoluzione e un termometro.\r\n              Lo strumento è personalizzabile in termini di numero e spaziatura fra i nodi e lunghezza, a seconda delle esigenze di progetto."
+    },
+    {
+      "index": 2,
+      "source": "https://www.aseltd.eu/en/products/cir-array/",
+      "content": "ASE - Cir Array\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHome\nAbout\n\n\nTeam\nPrivacy Policy\n\n\n\nSectors\nProducts\n\nMonitoring System\n\n\nCir Array\nD-Fence\nHorizontal Array\nMusa\nPreConv Array\nRad Array\nTherm Array\nTilt Meters\nTLP ONE\nVertical Array\nVertical Array Structure\n\n\nDataloggers and multiplexers\n\nASE Mind\nDMUX\nGEI 201\n\nGEI 802\nGMUX\n\n\nData management systems\n\nGeo-Atlas\nMind\n\n\n\n\n\nProjects\nPublications\nDistributors\nGeo-Atlas Demo\n\n\n\n\nDemo\nGeo-Atlas\n\n\nRequest a demonstration of our Web-Platform Service\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLoading...\n\n\n\nSend message\n\n\nClicking on \"Send message\" you accept the Terms of Use & Privacy Policy of ASE S.r.l.\n\n\n\n\n\nContact Us\n\nWrite Us\nWebinar"
+    },
+    {
+      "index": 3,
+      "source": "https://www.aseltd.eu/en/products/cir-array/",
+      "content": "Cir Array\n\n\n\n\r\n              The Cir Array is an instrument designed to monitor convergence and localised 3D deformation phenomena in tunnels under construction or existing.\r\n              The Cir Array is a sequence of IP69 hermetic nodes joined together by a fibreglass rod to maintain alignment and a cable for data transmission. Each node contains a high-resolution 3D MEMS sensor and a thermometer.\r\n              The instrument is customisable in terms of number and spacing between nodes and length, depending on the project requirements.\r\n              The instrument can be managed by the A802, A301 controllers or by any other Datalogger compatible with the RS485 Modbus RTU protocol."
+    },
+    {
+      "index": 4,
+      "source": "https://www.aseltd.eu/pl/products/cir-array/",
+      "content": "Cir Array jest instrumentem zaprojektowanym do monitorowania zbieżności i lokalnych zjawisk deformacji 3D w budowanych lub istniejących tunelach.\r\n            Cir Array to sekwencja hermetycznych węzłów o stopniu ochrony IP69, połączonych ze sobą prętem z włókna szklanego w celu utrzymania osiowości oraz kablem do transmisji danych. Każdy węzeł zawiera czujnik 3D MEMS o wysokiej rozdzielczości oraz termometr."
+    }
+  ]
+}
+{
+  "query": "hi",
+  "retrieved_docs": [
+    {
+      "index": 1,
+      "source": "https://www.aseltd.eu/it/about/team/",
+      "content": "Roberto Savi\nSales Manager\r\n                 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlessandro Valetta\nHead Of Scientific Development\r\n                 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlberto Sillani\nHead Of IT\r\n                 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMajd Saidani\nIT Engineering Student"
+    }
+  ]
+}
+{
+  "query": "what is a cir-array",
+  "retrieved_docs": [
+    {
+      "index": 1,
+      "source": "https://www.aseltd.eu/it/products/cir-array/",
+      "content": "Il Cir Array è uno strumento progettato per il monitoraggio della convergenza e dei fenomeni deformativi localizzati 3D in gallerie in costruzione o esistenti.\r\n              Si presenta come una sequenza di nodi ermetici IP69 uniti mediante un’asta in fibra di vetro necessaria per preservarne l’allineamento e un cavo utile alla trasmissione dei dati. Ogni nodo contiene al proprio interno un sensore MEMS 3D ad alta risoluzione e un termometro.\r\n              Lo strumento è personalizzabile in termini di numero e spaziatura fra i nodi e lunghezza, a seconda delle esigenze di progetto."
+    }
+  ]
+}
+{
+  "query": "who is roberto savi",
+  "retrieved_docs": [
+    {
+      "index": 1,
+      "source": "https://www.aseltd.eu/it/about/team/",
+      "content": "Roberto Savi\nSales Manager\r\n                 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlessandro Valetta\nHead Of Scientific Development\r\n                 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlberto Sillani\nHead Of IT\r\n                 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMajd Saidani\nIT Engineering Student"
+    }
+  ]
+}
+{
+  "query": "what is geoatlas",
+  "retrieved_docs": [
+    {
+      "index": 1,
+      "source": "https://www.aseltd.eu/en/products/geo-atlas/",
+      "content": "Geo-Atlas\n\n\n\n\n\n\n\n\r\n              Geo-Atlas is a platform designed for the management, storage, processing and dynamic visualisation of data from the main monitoring systems on the market.\r\n              \r\n              The technology consists of the following components:"
+    }
+  ]
+}
+{
+  "query": "quit",
+  "retrieved_docs": [
+    {
+      "index": 1,
+      "source": "https://www.aseltd.eu/en/about/privacy-policy/",
+      "content": "Withdraw consent to treatment,\r\n          \n\r\n            Know what personal data we have in our possession, its origin and the way in which they are used,\r\n          \n\r\n            Request the updating, correction or integration and, in the cases provided for by the provisions in force, the cancellation, the limitation of processing,\r\n          \n\r\n            Oppose their treatment,\r\n          \n\r\n            Request (if you wish) to receive your personal data held by ASE in a format readable by electronic devices and, where technically possible, we can transfer your data directly to a third party indicated by you."
+    }
+  ]
+}
+{
+  "query": "who is majd",
+  "retrieved_docs": [
+    {
+      "index": 1,
+      "source": "https://www.aseltd.eu/it/products/rad-array/",
+      "content": "Il Rad Array è uno strumento innovativo progettato per il monitoraggio delle deformazioni nell’intorno di una sezione di scavo dovuti ad esempio a movimenti gravitativi profondi. Il sistema è pensato per essere accoppiato con un estensimetro multibase al fine di ottenere una panoramica completa dello stato deformativo.\r\n              Si presenta come una sequenza di nodi ermetici IP69 uniti mediante un’asta in fibra di vetro necessaria per preservarne l’allineamento e un cavo utile alla trasmissione dei dati. Ogni nodo contiene al proprio interno un sensore MEMS 3D ad alta risoluzione e un termometro."
+    }
+  ]
+}
+{
+  "query": "who is majd saidani",
+  "retrieved_docs": [
+    {
+      "index": 1,
+      "source": "https://www.aseltd.eu/en/about/team/",
+      "content": "Alessandro Valetta\nHead Of Scientific Development\r\n                 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlberto Sillani\nHead Of IT\r\n                 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMajd Saidani\nIT Engineering Student"
+    }
+  ]
+}
+{
+  "query": "talk to me about dfence",
+  "retrieved_docs": [
+    {
+      "index": 1,
+      "source": "https://www.aseltd.eu/pl/products/dfence/",
+      "content": "Ładowanie...\n\n\n\nWyślij wiadomość\n\n\nKlikając na \"Wyślij wiadomość\" akceptujesz Warunki Użytkowania i Politykę Prywatności ASE S.r.l.\n\n\n\n\n\nSkontaktuj się z nami\n\nNapisz do nas\nWebinar\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nD-Fence"
+    }
+  ]
+}
+{
+  "query": "what is inclinometer",
+  "retrieved_docs": [
+    {
+      "index": 1,
+      "source": "https://www.aseltd.eu/en/about/publications/",
+      "content": "Advantages of innovative automatic inclinometers applied to landslide monitoring for early warning activities\nValletta A.1, Cavalca E.1, Savi R.1 Segalini A.1 – 1DIA, Università di Parma\n\n\n\n\n\n\n\nInnovative monitoring instruments as support tools for natural risks management\nValletta A.1, Carri A.2, Segalini A.1 – 1DIA, Università di Parma,  2ASE S.r.l. Parma.\n\n\n\n\n\n\n\nApplication of innovative monitoring tools for safety and alert procedures in road tunnels\n Segalini A..1, Savi R.1, Carri A.2,  Cavalca E.1, Valletta A..1 – 1DIA, Università di Parma, 2ASE S.r.l., Parma"
+    }
+  ]
+}
+{
+  "query": "who is majd",
+  "retrieved_docs": [
+    {
+      "index": 1,
+      "source": "https://www.aseltd.eu/it/products/rad-array/",
+      "content": "Il Rad Array è uno strumento innovativo progettato per il monitoraggio delle deformazioni nell’intorno di una sezione di scavo dovuti ad esempio a movimenti gravitativi profondi. Il sistema è pensato per essere accoppiato con un estensimetro multibase al fine di ottenere una panoramica completa dello stato deformativo.\r\n              Si presenta come una sequenza di nodi ermetici IP69 uniti mediante un’asta in fibra di vetro necessaria per preservarne l’allineamento e un cavo utile alla trasmissione dei dati. Ogni nodo contiene al proprio interno un sensore MEMS 3D ad alta risoluzione e un termometro."
+    }
+  ]
+}
+{
+  "query": "who is majd saidani",
+  "retrieved_docs": [
+    {
+      "index": 1,
+      "source": "https://www.aseltd.eu/en/about/team/",
+      "content": "Alessandro Valetta\nHead Of Scientific Development\r\n                 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlberto Sillani\nHead Of IT\r\n                 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMajd Saidani\nIT Engineering Student"
+    }
+  ]
+}
+{
+  "query": "talk to me about dfence",
+  "retrieved_docs": [
+    {
+      "index": 1,
+      "source": "https://www.aseltd.eu/pl/products/dfence/",
+      "content": "Ładowanie...\n\n\n\nWyślij wiadomość\n\n\nKlikając na \"Wyślij wiadomość\" akceptujesz Warunki Użytkowania i Politykę Prywatności ASE S.r.l.\n\n\n\n\n\nSkontaktuj się z nami\n\nNapisz do nas\nWebinar\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nD-Fence"
+    }
+  ]
+}
+{
+  "query": "what is inclinometer",
+  "retrieved_docs": [
+    {
+      "index": 1,
+      "source": "https://www.aseltd.eu/en/about/publications/",
+      "content": "Advantages of innovative automatic inclinometers applied to landslide monitoring for early warning activities\nValletta A.1, Cavalca E.1, Savi R.1 Segalini A.1 – 1DIA, Università di Parma\n\n\n\n\n\n\n\nInnovative monitoring instruments as support tools for natural risks management\nValletta A.1, Carri A.2, Segalini A.1 – 1DIA, Università di Parma,  2ASE S.r.l. Parma.\n\n\n\n\n\n\n\nApplication of innovative monitoring tools for safety and alert procedures in road tunnels\n Segalini A..1, Savi R.1, Carri A.2,  Cavalca E.1, Valletta A..1 – 1DIA, Università di Parma, 2ASE S.r.l., Parma"
+    }
+  ]
+}
