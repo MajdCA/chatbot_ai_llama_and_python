@@ -34,5 +34,65 @@
   {
     "user": "hi what is you name",
     "assistant": "Hi! I'm GeoAtlas Assistant."
+  },
+  {
+    "user": "do you remember my last question",
+    "assistant": "I don't have personal memories, so I don't recall previous conversations. Each time you interact with me, it's a new conversation. What can I help you with today?"
+  },
+  {
+    "user": "hi",
+    "assistant": "Hello!"
+  },
+  {
+    "user": "hi",
+    "assistant": "Hello!"
+  },
+  {
+    "user": "hi",
+    "assistant": "Hello!"
+  },
+  {
+    "user": "what is you name",
+    "assistant": "Hello! I am GeoAtlas Assistant, an in-app guide for the GeoAtlas web application."
+  },
+  {
+    "user": "hi",
+    "assistant": "Hi!"
+  },
+  {
+    "user": "what is your name",
+    "assistant": "Hi! I'm GeoAtlas Assistant."
+  },
+  {
+    "user": "what can you do",
+    "assistant": "I'm here to help you navigate and use the GeoAtlas web application. I can guide you through the various features, including:\n\n* Navigating the Dashboard, Sites, Sensors, Maps, Reports, Alarms, and Settings\n* Explaining domain-specific terms and concepts within the app\n* Troubleshooting common issues with suggestions for fixes\n\nWhat would you like to learn or do first?"
+  },
+  {
+    "user": "can you search how to do a simple python program that says hi",
+    "assistant": "I'm not capable of providing direct coding assistance. However, I can guide you on how to navigate to the Reports section and create a custom report, which may include guidance on Python programming.\n\nTo start, let's focus on the GeoAtlas web application. If you'd like to explore the Dashboards or Sites sections first, please let me know."
+  },
+  {
+    "user": "hi",
+    "assistant": "Hi!"
+  },
+  {
+    "user": "what is you name",
+    "assistant": "Hi! I'm GeoAtlas Assistant."
+  },
+  {
+    "user": "what can you do",
+    "assistant": "I'm here to help you navigate and use the GeoAtlas web application. I can guide you through various features, including:\n\n* Navigating the Dashboard, Sites, Sensors, Maps, Reports, Alarms, and Settings\n* Explaining domain-specific terms and concepts within the app\n* Troubleshooting common issues with suggestions for fixes\n\nWhat would you like to learn or do first?"
+  },
+  {
+    "user": "what is geoatlas",
+    "assistant": "Hi!\n\nGeoAtlas Assistant here. I'm an in-app guide for the GeoAtlas web application, helping you navigate and use its features effectively. What would you like to know about GeoAtlas?"
+  },
+  {
+    "user": "can you tell me more about geoatlas",
+    "assistant": "**Welcome to GeoAtlas!**\nGeoAtlas is a comprehensive platform for monitoring and analyzing geospatial data from various sources.\nYou can access it through our web application, where you'll find features like Dashboard, Sites, Sensors, Maps, Reports, Alarms, and Settings.\n\nWhat would you like to know more about?"
+  },
+  {
+    "user": "hi",
+    "assistant": "Hi!"
   }
 ]

@@ -7,7 +7,7 @@ from pathlib import Path
 
 HISTORY_FILE = Path("conversation_history.json")
 PREPARED_FILE = "prepared_answers.json"
-MAX_CONTEXT_TURNS = 10  # Limit context to last 10 exchanges to manage token usage
+MAX_CONTEXT_TURNS = 4  # Limit context to last 10 exchanges to manage token usage
 ################################################### load prompts #######################################################
 def read(path: str) -> str:
     return Path(path).read_text(encoding="utf-8")
@@ -76,14 +76,18 @@ def handle_conversation():
         start = time.time()
 
         # Print the prompt sent to the LLM for debugging
-        formatted_prompt = prompt.format(context=context, question=user_input)
-        print("----- LLM PROMPT -----")
-        print(formatted_prompt)
-        print("----------------------")
+        
+
+        #formatted_prompt = prompt.format(context=context, question=user_input)
+    
 
         context_to_send = context[-MAX_CONTEXT_TURNS*2:]  # each turn has user+assistant
         print("Context sent to LLM:", context_to_send)  # Debug print
         print("User input:", user_input)  # Debug print
+        print("----- LLM PROMPT -----")
+        print(prompt.format(context=context_to_send, question=user_input))
+       
+        print("----------------------")
         response = chain.invoke({"context": context_to_send, "question": user_input})
         print(f"Assistant: {response}")
 
